@@ -1,0 +1,143 @@
+// @import "ngx-bootstrap/datepicker/bs-datepicker.css";
+
+
+@import "./mixins/";
+@import "./theme/";
+// @import "~normalize.css";
+
+// Configuration
+// @import "bootstrap/scss/functions";
+// @import "bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+
+// Layout & components
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+// @import "tables";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+// @import "card";
+// @import "accordion";
+// @import "breadcrumb";
+@import "bootstrap/scss/pagination";
+@import "bootstrap/scss/badge";
+@import "bootstrap/scss/alert";
+// @import "progress";
+// @import "list-group";
+@import "bootstrap/scss/close";
+// @import "toasts";
+@import "bootstrap/scss/modal";
+// @import "tooltip";
+// @import "popover";
+// @import "carousel";
+@import "bootstrap/scss/spinners";
+// @import "offcanvas";
+// @import "placeholders";
+
+// Helpers
+@import "bootstrap/scss/helpers";
+
+// Utilities
+@import "bootstrap/scss/utilities/api";
+@import "./components/";
+// @import "keen-slider/keen-slider.min.css";
+
+// @import "ngx-bootstrap/datepicker/bs-datepicker.css";
+
+// reset
+:root {
+
+  font-size: calc(1vw + 0.3em);
+  @media screen and (min-width: 1024px) {
+    font-size: calc(1vw - 0.1em);
+
+  }
+}
+
+html,
+body {
+  overflow: hidden;
+  font-family: "DINNEXTltARABIC";
+  background-color: #f4f6f8;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+  outline: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+
+  li {
+    list-style-type: none;
+  }
+}
+
+.container {
+  @media (min-width: 1600px) {
+    max-width: 1480px;
+  }
+}
+
+.badge {
+  padding: 0 5px;
+  font-size: 1.125rem;
+
+  &.primary {
+    color: $MainColor;
+    background-color: $Colors-Greys-Original;
+    border-radius: 5px;
+    border: $GreysOriginal 1px solid;
+  }
+
+  &.black {
+    background: black;
+    line-height: 2;
+    color: white;
+    border-radius: 5px;
+    padding: 0 10px;
+  }
+}
+
+.no-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100vh - 250px);
+
+  p {
+    color: $TextSupport;
+    max-width: 500px;
+    text-align: center;
+    margin: 15px 0;
+  }
+}
+
+.searchfield {
+  min-width: 22.5rem !important;
+  padding: 0 37px !important;
+
+  &:focus {
+    box-shadow: none;
+    border: 0;
+  }
+}
+

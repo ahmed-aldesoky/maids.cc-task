@@ -1,0 +1,27 @@
+@import "../theme";
+.page-item:first-child .page-link {
+  img {
+    rotate: 180deg;
+  }
+}
+
+.page-item {
+  &.disabled {
+    user-select: none;
+    cursor: not-allowed;
+  }
+}
+.page-link {
+  cursor: pointer;
+
+  border-radius: 5px;
+  margin-right: 5px;
+  padding: 5px 10px;
+  color: $TextSupport;
+  font-size: 1.125rem;
+}
+
+.page-item:last-child .page-link,
+.page-item:first-child .page-link {
+  background-color: $TextSupport;
+}

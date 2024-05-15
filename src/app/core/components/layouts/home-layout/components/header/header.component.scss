@@ -1,0 +1,13 @@
+@import "../../../../../../../styles/theme/variables.scss";
+
+header {
+  position: relative;
+  width: 100%;
+
+  z-index: 9;
+
+  .username {
+    font-size: 0.875rem;
+    color: #4a4a4a;
+  }
+}

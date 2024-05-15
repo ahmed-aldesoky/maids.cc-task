@@ -1,0 +1,102 @@
+@import "../theme";
+  .btn {
+  padding: 1em;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  &:hover {
+    opacity: 0.8 !important;
+    background-color: inherit !important;
+  }
+  &:focus {
+    opacity: 0.8 !important;
+    background-color: inherit !important;
+  }
+
+    &.btn-primary {
+      background: $Buttons-Primary-BG !important;
+      font-family: "29LT Zarid Sans bold";
+        font-weight: 800;
+    color: $Buttons-Primary-Content !important;
+      &:disabled,
+        .disabled,
+        &[disabled] {
+      cursor: not-allowed !important;
+      background: $Buttons-Dimmed-Bg !important;
+    }
+  }
+
+  &.btn-secondary {
+    color: $Buttons-Secondry-Content !important;
+    background: $Buttons-Secondry-BG;
+    font-family: "29LT Zarid Sans medium";
+      font-weight: 600;
+    &:disabled,
+      .disabled,
+      &[disabled] {
+        cursor: not-allowed !important;
+        color: $Buttons-Dimmed-Bg;
+        background: $Buttons-Dimmed-Shade;
+      }
+  }
+  &.btn-outline {
+    color: $Buttons-Outlined-Content !important;
+    background: $Buttons-Primary-Content !important;
+    font-family: "29LT Zarid Sans medium";
+      font-weight: 600;
+      border-color:$Buttons-Outlined-Content !important;
+    &:disabled,
+      .disabled,
+      &[disabled] {
+        cursor: not-allowed !important;
+        color: $Buttons-Dimmed-Bg !important;
+        border-color: $Buttons-Dimmed-Bg !important;
+      }
+  }
+  &.btn-warning {
+    color: $Semantics-Main-Danger !important;
+    background: $Buttons-Primary-Content !important;
+    font-family: "29LT Zarid Sans medium";
+      font-weight: 600;
+    &:disabled,
+      .disabled,
+      &[disabled] {
+        cursor: not-allowed !important;
+        color: $Buttons-Dimmed-Bg !important;
+      background: $Buttons-Dimmed-Bg !important;
+          color: $Buttons-Primary-Content !important;
+      }
+  }
+  &.btn-transparent {
+        color: $Buttons-Outlined-Content !important;
+    background: transparent !important;
+    font-family: "29LT Zarid Sans medium";
+      font-weight: 600;
+    &:disabled,
+      .disabled,
+      &[disabled] {
+        cursor: not-allowed !important;
+          color: $Buttons-Dimmed-Bg !important;
+          border-color: $Buttons-Dimmed-Bg !important;
+      }
+  }
+
+
+
+  &.btn-rounded {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px !important;
+  }
+
+
+  &.icon {
+    padding: 0 !important;
+    border: none;
+    cursor: pointer;
+  }
+
+  &.wide {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

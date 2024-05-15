@@ -1,0 +1,58 @@
+
+.heading-1 {
+  font-size: 2rem;
+color: $Text-Main-Text;
+font-family: "29LT Zarid Serif bold";
+font-weight: 800;
+}
+
+.heading-2 {
+  font-size: 1.5rem;
+color: $Text-Main-Text;
+font-family: "29LT Zarid Serif bold";
+  font-weight: 800;
+}
+
+.heading-3-bold {
+  font-size: 1.125rem;
+color: $Text-Main-Text;
+font-family: "29LT Zarid Serif bold";
+  font-weight: 800;
+}
+
+.heading-3-medium {
+  font-size: 1.125rem;
+color: $Text-Main-Text;
+font-family: "29LT Zarid Sans bold";
+  font-weight: 600;
+}
+
+.text-base {
+  font-size: 1rem;
+
+}
+.text-medium {
+font-size: 0.875rem;
+}
+.text-small {
+font-size: 0.75rem;
+}
+.font-bold {
+  font-weight: 800;
+font-family: "29LT Zarid Sans bold";
+}
+.font-medium {
+  font-weight: 600;
+font-family: "29LT Zarid Sans medium";
+}
+.font-normal {
+  font-weight: 200;
+font-family: "29LT Zarid Sans normal";
+}
+
+
+p {
+  font-size: 1.5rem;
+  line-height: 26px;
+font-family: "29LT Zarid Serif medium";
+}
